@@ -105,6 +105,26 @@ main:focus-visible {
 .section:focus {
 	outline: none;
 }
+
+/* Add this new mobile navigation style */
+@media screen and (max-width: 767px) {
+  .navigation-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  .navigation-grid .navigation-link {
+    width: 100%;
+  }
+  
+  .social-links-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+  }
+}
 </style>
     </div>
     <div data-animation="over-left" class="section-nav is-multi-colored w-nav" data-easing2="ease" data-easing="ease" data-collapse="small" data-w-id="69118560-d0bc-15fc-bbf8-b8fe5f6535b5" role="banner" data-duration="400" data-doc-height="1">
@@ -162,7 +182,7 @@ main:focus-visible {
           <div style="opacity:0" class="container-large">
             <div class="layout-12-column">
               <div id="w-node-a95b2831-2b6f-c134-dcd4-e94e0cada7a8-92f269e1" class="content-wrapper">
-                <p class="text-size-large">I’ve been building products on the internet for 20 years and leading teams for over 10 years.</p>
+                <p class="text-size-large">I've been building products on the internet for 20 years and leading teams for over 10 years.</p>
                 <p class="text-size-large margin-0">Most recently at Edgio. Previously, Layer0. Before that, Linode.</p>
               </div>
             </div>
@@ -201,8 +221,8 @@ main:focus-visible {
               <div id="w-node-_070bf091-02e1-222f-3e11-a889150ce5b2-92f269e1" class="content-wrapper"></div>
               <div id="w-node-_070bf091-02e1-222f-3e11-a889150ce5b5-92f269e1" class="content-wrapper">
                 <p>I have worked for startups, agencies, and financial services companies, building websites, apps, e-commerce systems, and, cloud / edge platforms.</p>
-                <p>I&#x27;ve also lectured for the UX/IxD Masters program at Thomas Jefferson University and spoke at conferences, meetups, and boot camps.</p>
-                <p class="margin-0">I used to have a lot of hobbies like brewing beer, organize meetups including CTO School Philly, and be on charitable organization boards like the Philly Awesome Foundation. Now, I&#x27;m happily the father of twin boys, and I&#x27;m very into coffee.</p>
+                <p>I've also lectured for the UX/IxD Masters program at Thomas Jefferson University and spoke at conferences, meetups, and boot camps.</p>
+                <p class="margin-0">I used to have a lot of hobbies like brewing beer, organize meetups including CTO School Philly, and be on charitable organization boards like the Philly Awesome Foundation. Now, I'm happily the father of twin boys, and I'm very into coffee.</p>
               </div>
             </div>
           </div>
@@ -337,7 +357,7 @@ main:focus-visible {
             </div>
             <div id="w-node-_141f5c11-7ee0-5860-e542-1382da397613-1d954aa0" class="content-wrapper">
               <div class="margin-bottom margin-xlarge">
-                <h3 class="max-width-medium">I’m Howie — Tech leader based in Philly</h3>
+                <h3 class="max-width-medium">I'm Howie — Tech leader based in Philly</h3>
               </div>
               <div class="margin-bottom margin-huge">
                 <a href="mailto:howard.ross@gmail.com?subject=%F0%9F%91%8B" class="button w-button">EMAIL ME →</a>
